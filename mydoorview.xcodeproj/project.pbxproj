@@ -1,0 +1,289 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F1B6D2A1933218C007B786B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1B6D291933218C007B786B /* UIKit.framework */; };
+		1F1B6D2C1933218C007B786B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1B6D2B1933218C007B786B /* Foundation.framework */; };
+		1F1B6D2E1933218C007B786B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1B6D2D1933218C007B786B /* CoreGraphics.framework */; };
+		1F1B6D341933218C007B786B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B6D321933218C007B786B /* InfoPlist.strings */; };
+		1F1B6D361933218C007B786B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B6D351933218C007B786B /* main.m */; };
+		1F1B6D3A1933218C007B786B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B6D391933218C007B786B /* AppDelegate.m */; };
+		1F1B6D3C1933218C007B786B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B6D3B1933218C007B786B /* Default.png */; };
+		1F1B6D3E1933218C007B786B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B6D3D1933218C007B786B /* Default@2x.png */; };
+		1F1B6D401933218C007B786B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B6D3F1933218C007B786B /* Default-568h@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1F1B6D261933218C007B786B /* mydoorview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mydoorview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F1B6D291933218C007B786B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		1F1B6D2B1933218C007B786B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1F1B6D2D1933218C007B786B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1F1B6D311933218C007B786B /* mydoorview-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mydoorview-Info.plist"; sourceTree = "<group>"; };
+		1F1B6D331933218C007B786B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1F1B6D351933218C007B786B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1F1B6D371933218C007B786B /* mydoorview-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mydoorview-Prefix.pch"; sourceTree = "<group>"; };
+		1F1B6D381933218C007B786B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1F1B6D391933218C007B786B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1F1B6D3B1933218C007B786B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		1F1B6D3D1933218C007B786B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		1F1B6D3F1933218C007B786B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F1B6D231933218C007B786B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1B6D2A1933218C007B786B /* UIKit.framework in Frameworks */,
+				1F1B6D2C1933218C007B786B /* Foundation.framework in Frameworks */,
+				1F1B6D2E1933218C007B786B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F1B6D1D1933218C007B786B = {
+			isa = PBXGroup;
+			children = (
+				1F1B6D2F1933218C007B786B /* mydoorview */,
+				1F1B6D281933218C007B786B /* Frameworks */,
+				1F1B6D271933218C007B786B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F1B6D271933218C007B786B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F1B6D261933218C007B786B /* mydoorview.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F1B6D281933218C007B786B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F1B6D291933218C007B786B /* UIKit.framework */,
+				1F1B6D2B1933218C007B786B /* Foundation.framework */,
+				1F1B6D2D1933218C007B786B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1F1B6D2F1933218C007B786B /* mydoorview */ = {
+			isa = PBXGroup;
+			children = (
+				1F1B6D381933218C007B786B /* AppDelegate.h */,
+				1F1B6D391933218C007B786B /* AppDelegate.m */,
+				1F1B6D301933218C007B786B /* Supporting Files */,
+			);
+			path = mydoorview;
+			sourceTree = "<group>";
+		};
+		1F1B6D301933218C007B786B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F1B6D311933218C007B786B /* mydoorview-Info.plist */,
+				1F1B6D321933218C007B786B /* InfoPlist.strings */,
+				1F1B6D351933218C007B786B /* main.m */,
+				1F1B6D371933218C007B786B /* mydoorview-Prefix.pch */,
+				1F1B6D3B1933218C007B786B /* Default.png */,
+				1F1B6D3D1933218C007B786B /* Default@2x.png */,
+				1F1B6D3F1933218C007B786B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F1B6D251933218C007B786B /* mydoorview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F1B6D431933218C007B786B /* Build configuration list for PBXNativeTarget "mydoorview" */;
+			buildPhases = (
+				1F1B6D221933218C007B786B /* Sources */,
+				1F1B6D231933218C007B786B /* Frameworks */,
+				1F1B6D241933218C007B786B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mydoorview;
+			productName = mydoorview;
+			productReference = 1F1B6D261933218C007B786B /* mydoorview.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F1B6D1E1933218C007B786B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "My Mac";
+			};
+			buildConfigurationList = 1F1B6D211933218C007B786B /* Build configuration list for PBXProject "mydoorview" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 1F1B6D1D1933218C007B786B;
+			productRefGroup = 1F1B6D271933218C007B786B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F1B6D251933218C007B786B /* mydoorview */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F1B6D241933218C007B786B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1B6D341933218C007B786B /* InfoPlist.strings in Resources */,
+				1F1B6D3C1933218C007B786B /* Default.png in Resources */,
+				1F1B6D3E1933218C007B786B /* Default@2x.png in Resources */,
+				1F1B6D401933218C007B786B /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F1B6D221933218C007B786B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F1B6D361933218C007B786B /* main.m in Sources */,
+				1F1B6D3A1933218C007B786B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1F1B6D321933218C007B786B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F1B6D331933218C007B786B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F1B6D411933218C007B786B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F1B6D421933218C007B786B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F1B6D441933218C007B786B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mydoorview/mydoorview-Prefix.pch";
+				INFOPLIST_FILE = "mydoorview/mydoorview-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		1F1B6D451933218C007B786B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mydoorview/mydoorview-Prefix.pch";
+				INFOPLIST_FILE = "mydoorview/mydoorview-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F1B6D211933218C007B786B /* Build configuration list for PBXProject "mydoorview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1B6D411933218C007B786B /* Debug */,
+				1F1B6D421933218C007B786B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F1B6D431933218C007B786B /* Build configuration list for PBXNativeTarget "mydoorview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F1B6D441933218C007B786B /* Debug */,
+				1F1B6D451933218C007B786B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F1B6D1E1933218C007B786B /* Project object */;
+}
