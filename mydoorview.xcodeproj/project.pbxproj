@@ -16,6 +16,12 @@
 		1F1B6D3C1933218C007B786B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B6D3B1933218C007B786B /* Default.png */; };
 		1F1B6D3E1933218C007B786B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B6D3D1933218C007B786B /* Default@2x.png */; };
 		1F1B6D401933218C007B786B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B6D3F1933218C007B786B /* Default-568h@2x.png */; };
+		1F1B6D4719335FE0007B786B /* mydoor.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B6D4619335FE0007B786B /* mydoor.sqlite */; };
+		1F1B6D4919336025007B786B /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F1B6D4819336025007B786B /* libsqlite3.0.dylib */; };
+		1F1B6D4F19336AF8007B786B /* nextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B6D4D19336AF8007B786B /* nextViewController.m */; };
+		1F1B6D5019336AF8007B786B /* nextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B6D4E19336AF8007B786B /* nextViewController.xib */; };
+		1F1B6D5419336B13007B786B /* tableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1B6D5219336B13007B786B /* tableViewController.m */; };
+		1F1B6D5519336B13007B786B /* tableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1F1B6D5319336B13007B786B /* tableViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +38,14 @@
 		1F1B6D3B1933218C007B786B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		1F1B6D3D1933218C007B786B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		1F1B6D3F1933218C007B786B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		1F1B6D4619335FE0007B786B /* mydoor.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = mydoor.sqlite; path = mydoorview/mydoor.sqlite; sourceTree = "<group>"; };
+		1F1B6D4819336025007B786B /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		1F1B6D4C19336AF8007B786B /* nextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nextViewController.h; sourceTree = "<group>"; };
+		1F1B6D4D19336AF8007B786B /* nextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = nextViewController.m; sourceTree = "<group>"; };
+		1F1B6D4E19336AF8007B786B /* nextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = nextViewController.xib; sourceTree = "<group>"; };
+		1F1B6D5119336B13007B786B /* tableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tableViewController.h; sourceTree = "<group>"; };
+		1F1B6D5219336B13007B786B /* tableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = tableViewController.m; sourceTree = "<group>"; };
+		1F1B6D5319336B13007B786B /* tableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = tableViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F1B6D4919336025007B786B /* libsqlite3.0.dylib in Frameworks */,
 				1F1B6D2A1933218C007B786B /* UIKit.framework in Frameworks */,
 				1F1B6D2C1933218C007B786B /* Foundation.framework in Frameworks */,
 				1F1B6D2E1933218C007B786B /* CoreGraphics.framework in Frameworks */,
@@ -51,6 +66,8 @@
 		1F1B6D1D1933218C007B786B = {
 			isa = PBXGroup;
 			children = (
+				1F1B6D4819336025007B786B /* libsqlite3.0.dylib */,
+				1F1B6D4619335FE0007B786B /* mydoor.sqlite */,
 				1F1B6D2F1933218C007B786B /* mydoorview */,
 				1F1B6D281933218C007B786B /* Frameworks */,
 				1F1B6D271933218C007B786B /* Products */,
@@ -80,6 +97,12 @@
 			children = (
 				1F1B6D381933218C007B786B /* AppDelegate.h */,
 				1F1B6D391933218C007B786B /* AppDelegate.m */,
+				1F1B6D4C19336AF8007B786B /* nextViewController.h */,
+				1F1B6D4D19336AF8007B786B /* nextViewController.m */,
+				1F1B6D4E19336AF8007B786B /* nextViewController.xib */,
+				1F1B6D5119336B13007B786B /* tableViewController.h */,
+				1F1B6D5219336B13007B786B /* tableViewController.m */,
+				1F1B6D5319336B13007B786B /* tableViewController.xib */,
 				1F1B6D301933218C007B786B /* Supporting Files */,
 			);
 			path = mydoorview;
@@ -154,6 +177,9 @@
 				1F1B6D3C1933218C007B786B /* Default.png in Resources */,
 				1F1B6D3E1933218C007B786B /* Default@2x.png in Resources */,
 				1F1B6D401933218C007B786B /* Default-568h@2x.png in Resources */,
+				1F1B6D4719335FE0007B786B /* mydoor.sqlite in Resources */,
+				1F1B6D5019336AF8007B786B /* nextViewController.xib in Resources */,
+				1F1B6D5519336B13007B786B /* tableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,6 +192,8 @@
 			files = (
 				1F1B6D361933218C007B786B /* main.m in Sources */,
 				1F1B6D3A1933218C007B786B /* AppDelegate.m in Sources */,
+				1F1B6D4F19336AF8007B786B /* nextViewController.m in Sources */,
+				1F1B6D5419336B13007B786B /* tableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +310,7 @@
 				1F1B6D451933218C007B786B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
