@@ -10,4 +10,6 @@
 #import <sqlite3.h>
 #import "nextViewController.h"
 @interface AppDelegate : UIResponder <UIApplicationDelegate,UINavigationControllerDelegate>
+
+
 @end
